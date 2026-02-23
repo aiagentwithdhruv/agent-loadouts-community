@@ -45,6 +45,27 @@ platforms: [claude-code]  # claude-code, cursor, codex, openai, etc.
 1. Feed CLAUDE.md as system prompt
 2. Feed relevant knowledge files for domain expertise
 
+### Via MCP Server
+1. Add to Claude Desktop / Cursor MCP config:
+   ```json
+   {
+     "mcpServers": {
+       "AgentLoadout": {
+         "command": "python3",
+         "args": ["Agent-Loadouts/tools/loadout_mcp.py"],
+         "env": { "LOADOUT_WORKSPACE": "/path/to/workspace" }
+       }
+     }
+   }
+   ```
+2. Use tools: `list_loadouts`, `get_skill`, `search_skills`, `get_routing`
+
+### Via CLI
+```bash
+python3 Agent-Loadouts/tools/loadout_cli.py verify .
+python3 Agent-Loadouts/tools/loadout_cli.py doctor
+```
+
 ---
 
 ## Self-Update Schedule

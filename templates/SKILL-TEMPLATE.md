@@ -85,6 +85,34 @@
 
 ---
 
+## Schema
+
+> Typed schema for programmatic discovery and composition.
+> This section is required for all skills. Used by the Loadout MCP Server and CLI.
+
+### Inputs
+| Name | Type | Required | Description |
+|------|------|----------|-------------|
+| `{param_name}` | string/integer/boolean/array/object/file_path | Yes/No | {What this parameter does} |
+
+### Outputs
+| Name | Type | Description |
+|------|------|-------------|
+| `{output_name}` | string/file_path/array/boolean | {What this output contains} |
+
+### Credentials
+| Name | Source |
+|------|--------|
+| `{ENV_VAR_NAME}` | .env / file / Modal dashboard / n8n MCP |
+
+### Composable With
+Skills that chain well with this one: `{skill-1}`, `{skill-2}`
+
+### Cost
+{Free / $X per run / API credits}
+
+---
+
 ## Self-Update Rules
 
 ### After Every Coding Session
