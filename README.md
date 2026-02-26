@@ -1,12 +1,34 @@
 # Agent Loadouts (Community Edition)
 
-**Portable knowledge packs that give AI agents domain expertise.**
+**Everyone has AI now. The difference is how you load it.**
 
-Think RPG character loadouts: equip one and your AI agent gains skills, knowledge, memory, tools, and behavioral rules for a specific domain.
+A soldier with 10 guns who doesn't know how to load any of them loses to a soldier with 1 loaded gun. That's most people with AI right now.
+
+**Agent Loadouts** are structured context packs that turn generic AI into YOUR personal expert — instantly.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 By [AiwithDhruv](https://www.linkedin.com/in/aiwithdhruv/) | [GitHub](https://github.com/aiagentwithdhruv)
+
+---
+
+## New: The AI Loadout Guide
+
+**Go from Level 1 to Level 5 in 20 minutes.**
+
+| Level | What They Do | Result |
+|-------|-------------|--------|
+| Level 1 | Use AI with no context | Generic answers, start from zero each time |
+| Level 2 | Copy-paste prompts | Better, but no memory between sessions |
+| Level 3 | Use CONTEXT.md | AI knows your project, starts at 50% |
+| Level 4 | Use Skills | AI knows HOW to do specific tasks perfectly |
+| **Level 5** | **Full Loadout** | **AI is a specialist that improves over time** |
+
+| Resource | What You Get | Time |
+|----------|-------------|------|
+| **[The Concept](guide/README.md)** | Why loadouts matter, the 3-layer system, real examples | 5 min read |
+| **[Starter Template](guide/STARTER-TEMPLATE.md)** | Copy-paste CONTEXT.md + SKILL.md + LOADOUT.md | 15 min setup |
+| **[Real Example](guide/EXAMPLE-euri-api.md)** | Production Euri API loadout — before vs after | 3 min read |
 
 ---
 
@@ -105,6 +127,7 @@ my-loadout/
 
 | Loadout | Description |
 |---------|-------------|
+| [Euri API](examples/euri-api/) | AI gateway loadout — 24 models, code recipes, common mistakes, n8n integration |
 | [SaaS Starter](examples/saas-starter/) | Generic SaaS company loadout — product, pricing, architecture |
 | [Freelancer](examples/freelancer/) | Freelance developer loadout — services, pricing, proposals |
 
