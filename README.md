@@ -36,6 +36,28 @@ You drop this folder into your project. AI reads it. Now it's not a generic chat
 
 ---
 
+## See It In Action
+
+**A real production workspace with personas, skills, and workflows:**
+
+<div align="center">
+<img src="assets/workspace-structure.png" alt="Agent Loadout workspace structure in VS Code — personas, skills, workflows, and context files" width="300"/>
+</div>
+
+> `.claude/personas/` — 8 specialized AI personas (sales-closer, engineer, content-creator, marketing-agent, etc.)
+> `.agent/skills/` — Reusable skill files AI can execute on command
+> `.agent/workflows/` — Multi-step automated workflows (context checks, distribution tracking)
+
+**Building and deploying a loadout with Claude Code:**
+
+<div align="center">
+<img src="assets/loadout-in-action.png" alt="Claude Code building and pushing an Agent Loadout — 20 files, 4,954 lines" width="700"/>
+</div>
+
+> One command. 20 files created. 4,954 lines of structured AI context — skills, agents, memory, playbooks — all pushed to GitHub in seconds.
+
+---
+
 ## The 5 Levels of AI Usage
 
 Most people are stuck at Level 1 or 2. This repo takes you to Level 5.
